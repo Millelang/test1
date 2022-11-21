@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(80, 80, 81);
+    color: darkgray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.container {
+    max-width: min(80ch,100vw - 4rem);
+    margin-inline:auto;
+}
+nav > ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+audio {
+    display: none;
+}
